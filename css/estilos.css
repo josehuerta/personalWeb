@@ -1,0 +1,62 @@
+.wrapper {
+  width: 95%;
+}
+
+.logo-usr {
+  color: #3f448c;
+}
+/* presentacion */
+.options {
+  height: 10vh;
+}
+.presentation {
+  height: 75vh;
+}
+
+/* info about me */
+.about {
+  height: 80vh;
+}
+.knowledges {
+  height: 80vh;
+}
+
+/* experience */
+.projects {
+  height: 35vh;
+}
+
+/* for tablets */
+@media (min-width: 768px) {
+  .about {
+    height: 45vh;
+  }
+  .knowledges {
+    height: 45vh;
+  }
+  .projects {
+    height: 32vh;
+  }
+}
+
+/* for laptops hd*/
+@media (min-width: 992px) {
+  .f-screen {
+    height: 100vh;
+  }
+  .about {
+    height: 85vh;
+  }
+  .knowledges {
+    height: 85vh;
+  }
+  .experience {
+    height: 95vh;
+  }
+  .projects {
+    height: 28vh;
+  }
+  .projects-container {
+    height: 89vh;
+  }
+}
